@@ -22,7 +22,7 @@ function calculate() {
     }
     if(ConnecteionSpeed1.val()=='GB'){
         FZ=FZ*1024
-        console.log(FZ  )
+        console.log(FZ)
         var minutes = Math.floor(FZ / 60);
         var seconds = Math.floor(FZ % 60);
         if(minutes==0){
